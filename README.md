@@ -8,3 +8,6 @@ npm install electron
 
 build命令
 ./node_modules/.bin/electron-builder build
+
+复制启动图标
+cp xxxx.png /usr/share/applications
