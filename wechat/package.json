@@ -1,0 +1,38 @@
+{
+  "name": "wechat-electron-app",
+  "version": "1.0.0",
+  "description": "My Electron App Description",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.5.0",
+    "electron-builder": "^24.6.3"
+  },
+  "build": {
+    "appId": "wechat-electron-app",
+    "productName": "wechat",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "wechat.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "wechat.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "wechat.icns"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

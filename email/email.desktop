@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=email
+Exec=email %U
+Terminal=false
+Type=Application
+Icon=/home/wzl/.config/icons/email.png
+StartupWMClass=email
+Categories=Network;
+Comment=email

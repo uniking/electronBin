@@ -1,0 +1,38 @@
+{
+  "name": "yunpan-electron-app",
+  "version": "1.0.0",
+  "description": "My Electron App Description",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.5.0",
+    "electron-builder": "^24.6.3"
+  },
+  "build": {
+    "appId": "yunpan-electron-app",
+    "productName": "yunpan",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "yunpan.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "yunpan.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "yunpan.icns"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

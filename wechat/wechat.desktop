@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Wechat
+Exec=wechat %U
+Terminal=false
+Type=Application
+Icon=/home/wzl/.config/icons/wechat.png
+StartupWMClass=Wechat
+Categories=Network;
+Comment=Wechat
